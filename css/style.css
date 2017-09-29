@@ -1,0 +1,231 @@
+/*Geral*/
+
+*{
+    font-family: 'Piedra', cursive;
+}
+
+/*Header*/
+.neve{
+    width: 100%;
+    background-image: url("../img/fundo.jpg");
+    height: 400px;
+}
+    @media screen and (max-width:768px){
+            .neve{
+                height: 170px;
+            }
+        }
+header{
+    text-transform: uppercase;
+    color: #a0dde6;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.8s all;
+    flex-direction: column;
+}
+
+        
+/*Fontes*/
+h1{
+     font-size: 100px;
+}       
+     @media screen and (max-width:768px){
+        h1{
+            font-size: 40px;
+        }
+    }
+
+h3{
+     font-size: 40px;
+     background-color: #2a2d34;
+}       
+     @media screen and (max-width:768px){
+        h3{
+            font-size: 20px;
+        }
+    }
+                  
+header:hover{
+    color:  #80c2af;
+    transition: 0.8s all;
+}
+
+    @media screen and (max-width:768px){
+        header{
+            font-size: 30px;
+        }
+    }
+
+/*Body*/
+
+.container{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+    @media screen and (max-width: 768px){
+            .container{
+                margin-top: 20px;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+            }
+    }
+
+.gelo{
+    width: 300px;
+    height: 250px;
+    background-image: url("../img/gelo.jpg") ;
+    background-size: 250px 250px;
+    background-repeat: no-repeat;
+}
+    @media screen and (max-width: 768px){
+        .gelo{
+            background-size: 100px 100px;
+            width: 100px;
+            height: 100px;
+        }
+    }
+
+div > p {
+    text-align: center;
+    position: absolute;
+    bottom: 32%;
+    right: 50%;
+}
+
+.alasca{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/alasca.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 25px;
+    color: #2a2d34;
+}
+     @media screen and (max-width: 768px){
+        .alasca{
+            width: 100%;
+        }
+    }
+
+
+.islandia{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/islandia.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 25px;
+    color: #2a2d34;
+}
+     @media screen and (max-width: 768px){
+        .islandia{
+            width: 100%;
+        }
+    }
+
+
+.siberia{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/sibéria.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 25px;
+    text-align: center;
+    color: #2a2d34;
+}
+
+     @media screen and (max-width: 768px){
+        .siberia{
+            width: 100%;
+        }
+    }
+
+
+
+
+
+a{
+    text-decoration: none;
+    color: #5c946e;
+    text-align: center;
+    justify-content: center;
+}   
+        
+
+div > a {
+    text-align: center;
+    position: absolute;
+    bottom: 32%;
+    right: 50%;
+    text-decoration: bolder;
+    text-transform: uppercase;
+}
+    @media screen and (max-width: 768px){
+        div > a {
+            text-align: center;
+            position: absolute;
+            top: 0;
+            right: 20%;
+        }
+    }
+
+
+.gelo{
+    position: relative;
+}
+
+.cta-form{
+    margin: 0 auto;
+    width: 1280px;
+    text-align: center;
+    color: #30c5ff;
+}
+    @media screen and (max-width: 768px){
+        .cta-form{
+            width: 300px;
+        }
+        h2{
+            font-size: 20px;
+        }
+
+    }
+
+.botaoviajar{
+    margin-top: 20px;
+    color: #30c5ff;
+    width: 40%;
+    height: 60px;
+    text-transform: uppercase;
+    transition: 0.8 all;
+    border-radius: 10px;
+    font-size: 30px;
+}
+    @media screen and (max-width: 768px){
+        .botaoviajar{
+            width: 50%;
+            height: 25px;
+            font-size: 15px;
+        }
+    }
+
+.botaoviajar:hover{
+    background-color: #5c946e;
+    transition: 0.8 all;
+}
+
+div > input{
+    width: 30%;
+    height: 30px;
+}
+

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Piedra" rel="stylesheet">
+    <title>Mundo Gelado</title>
+</head>
+
+<body>
+    <div id="fullpage">
+        <div class="section">
+            <header class="neve">
+                <h1>Mundo Gelado</h1>
+                <h3>A gente te leva para conhecer as maravilhas do gelo</h3>
+            </header>
+            <div class="container">
+                <div class="gelo"><a class="texto-alasca" href="#pag-alasca">Alasca</a></div>
+                <div class="gelo"><a class="texto-alasca" href="#pag-islandia">Islândia</a></div>
+                <div class="gelo"><a class="texto-alasca" href="#pag-siberia">Sibéria</a></div>
+            </div>
+            <form class=cta-form>
+                <h2>Vamos Viajar?</h2>
+                <p>Preencha o formulário abaixo com os seus dados e em breve entraremos em contato com você.</p>
+                <div class="cta">
+                    <input type="text" required placeholder="Digite seu nome:">
+                    <input type="text" required placeholder="Digite seu e-mail:">
+                    <input type="text" required placeholder="Digite o nome do país:">
+                </div>
+                <button class="botaoviajar">Quero Viajar!</button>
+            </form>
+        </div>
+
+
+        <div id=pag-alasca class="section alasca">Duração da viagem: 10 dias Preço do pacote R$ 8.000 - tudo incluso</div>
+        <div id=pag-islandia class="section islandia">Duração da viagem: 10 dias Preço do pacote R$ 8.000 - tudo incluso</div>
+        <div id=pag-siberia class="section siberia">Duração da viagem: 10 dias Preço do pacote R$ 8.000 - tudo incluso</div>
+    </div>
+
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/jquery.fullPage.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#fullpage').fullpage();
+        });
+    </script>
+</body>
+
+</html>
